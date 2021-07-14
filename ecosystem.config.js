@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'teapot-services',
+    name: 'my-nodejs-server',
     script: './src/index.js',
     max_memory_restart: '1000M',
     watch: ["src"],
