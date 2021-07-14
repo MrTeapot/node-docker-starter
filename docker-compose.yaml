@@ -1,0 +1,11 @@
+version: "3"
+services:
+  my-nodejs-server:
+    build:
+      context: ./
+      dockerfile: ./dev.Dockerfile
+    ports:
+    - "4000:4000"
+    - "9229:9229"
+    volumes:
+    - ./src/:/usr/src/app/src/
